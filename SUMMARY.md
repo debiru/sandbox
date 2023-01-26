@@ -1,4 +1,4 @@
 # Summary
 
 * [Introduction](README.md)
-    * [はじめに](intro.md)
+    * [はじめに](prologue.md)
