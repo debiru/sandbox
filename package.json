@@ -1,0 +1,21 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx honkit init",
+    "start": "npx honkit serve",
+    "build": "npx honkit build",
+    "publish": "gh-pages -d _book -m 'Auto publish book'"
+  },
+  "repository": "git@github.com:debiru/sandbox.git",
+  "author": "debiru <main.coeurl@gmail.com>",
+  "license": "",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "honkit": "^4.0.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
