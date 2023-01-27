@@ -1,0 +1,567 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>6. 日本語記事ページを編集する · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.4">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="7_create-pull-request.html" />
+    
+    
+    <link rel="prev" href="5_new-ja-file.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    トップページ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../meetup/">
+            
+                <a href="../meetup/">
+            
+                    
+                    月例ミートアップについて
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../meetup/community-slack.html">
+            
+                <a href="../meetup/community-slack.html">
+            
+                    
+                    Mozilla コミュニティの Slack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../meetup/time-schedule.html">
+            
+                <a href="../meetup/time-schedule.html">
+            
+                    
+                    タイムスケジュール
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../meetup/self-introduction.html">
+            
+                <a href="../meetup/self-introduction.html">
+            
+                    
+                    自己紹介シートについて
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../meetup/links.html">
+            
+                <a href="../meetup/links.html">
+            
+                    
+                    リンク集
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    翻訳作業の流れ
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="0_preparation.html">
+            
+                <a href="0_preparation.html">
+            
+                    
+                    0. 準備するもの
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1_choose-article.html">
+            
+                <a href="1_choose-article.html">
+            
+                    
+                    1. 記事を選定する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="2_declare-task.html">
+            
+                <a href="2_declare-task.html">
+            
+                    
+                    2. 作業を宣言する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="3_fork-repository.html">
+            
+                <a href="3_fork-repository.html">
+            
+                    
+                    3. fork リポジトリを用意する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="4_clone-repository.html">
+            
+                <a href="4_clone-repository.html">
+            
+                    
+                    4. fork リポジトリを clone する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="5_new-ja-file.html">
+            
+                <a href="5_new-ja-file.html">
+            
+                    
+                    5. 日本語記事ページを新規作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7" data-path="6_edit-ja-file.html">
+            
+                <a href="6_edit-ja-file.html">
+            
+                    
+                    6. 日本語記事ページを編集する
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="7_create-pull-request.html">
+            
+                <a href="7_create-pull-request.html">
+            
+                    
+                    7. Pull Request を作成する
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >6. 日本語記事ページを編集する</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="6-日本語記事ページを編集する">6. 日本語記事ページを編集する</h1>
+<h2 id="local-preview">5. の手順をスキップした場合（編集の場合） </h2>
+<ul>
+<li>例えば <a href="https://developer.mozilla.org/ja/docs/Glossary/Entity" target="_blank">https://developer.mozilla.org/ja/docs/Glossary/Entity</a> を編集する手順は以下の通りです。</li>
+</ul>
+<pre><code>// translated-content ディレクトリへ移動する
+$ cd ~/path/to/mdn/translated-content
+
+// main ブランチにいることを確認する
+$ git branch
+
+// ls しながら、URL に対応するディレクトリへ移動する
+$ ls
+$ cd files/ja
+$ ls
+$ cd glossary/entity
+
+// トピックブランチを切る（ブランチ名は GitHub Issue の番号にでもしておく）
+// ※トピックブランチ名に特に決まりはありません。自由に決めてください。
+$ git checkout -b issue-123
+</code></pre><ul>
+<li>ターミナルで別タブを開きます。</li>
+</ul>
+<pre><code>// content ディレクトリに移動する
+$ cd ~/path/to/content
+
+// ローカルプレビューを起動する
+$ yarn start
+</code></pre><ul>
+<li>ブラウザから <a href="http://localhost:5042/ja/docs/Glossary/Entity" target="_blank">http://localhost:5042/ja/docs/Glossary/Entity</a> を開きます。<ul>
+<li>ja の URL でページが表示できていることを確認できたら OK です。</li>
+<li>実際にはページが存在しているのに、初回アクセス時に Page not found となる場合があります。その場合はブラウザでページをリロードすれば表示されます。</li>
+</ul>
+</li>
+</ul>
+<h2 id="edit-flow">共通の手順（編集または新規作成） </h2>
+<h3 id="front-matter">メタデータ部分（Front-matter）の編集 </h3>
+<ul>
+<li>index.md ファイルは、Markdown によるコンテンツの記述部分より手前に、Yaml によるメタデータの記述があります。<ul>
+<li>そのメタデータ部分は Front-matter と呼ばれます。これは MDN に限らず一般的に用いられている記法の一つです。</li>
+</ul>
+</li>
+<li>MDN では、翻訳ファイル側の Front-matter を特定のフォーマットにする必要があります。<ul>
+<li>そのフォーマットは英語版と異なります。そのため、作業者が編集する必要があります。</li>
+<li>これは「<a href="https://github.com/mdn/translated-content/issues/7858" target="_blank">ja - フロントマターから不要なメタデータを削除</a>」による要請です。</li>
+</ul>
+</li>
+<li>英語版が次のようになっていたとします。</li>
+</ul>
+<pre><code class="lang-yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">Entity</span>
+<span class="hljs-attr">slug:</span> <span class="hljs-string">Glossary/Entity</span>
+<span class="hljs-attr">tags:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">CodingScripting</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">Composing</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">HTML</span>
+<span class="hljs-meta">---
+</span></code></pre>
+<ul>
+<li>日本語版では、<code>title</code> と <code>slug</code> 以外を削除し、<code>l10n</code> を追加します。<ul>
+<li><code>l10n</code> は「エル 10 エヌ」です。アイではありません。</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">Entity</span>
+<span class="hljs-attr">slug:</span> <span class="hljs-string">Glossary/Entity</span>
+<span class="hljs-attr">l10n:</span>
+  <span class="hljs-attr">sourceCommit:</span> <span class="hljs-string">1cfa0cd49bb572480f014af3b15dee3bda974178</span>
+<span class="hljs-meta">---
+</span></code></pre>
+<ul>
+<li><code>sourceCommit</code> のハッシュ値は、編集作業時点の content リポジトリの当該記事ページのファイル（英語版）の最新コミットハッシュ値（<code>git log</code> で確認できる）を記述します。<ul>
+<li>これにより、日本語版が英語版のいつのバージョンに追従しているかを把握することができるようになります。</li>
+<li>つまり、これを記述する場合は、日本語版の記事の内容を英語版の最新の内容と同期させる必要があります。<ul>
+<li>軽微な修正のみを行いたい場合で、<code>l10n</code> が記述されていない場合には上記の Front-matter の編集はしなくても構いません。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>実際の参考PR：<a href="https://github.com/mdn/translated-content/pull/8025" target="_blank">https://github.com/mdn/translated-content/pull/8025</a></li>
+</ul>
+<h3 id="body">本文部分（Markdown）の編集 </h3>
+<ul>
+<li>英語文を日本語文に翻訳していきます。</li>
+<li>その際、「英数字の前後には半角スペースを挿入する（例えば OK のように）」や、「-er、-or、-ar、-cy、-ry、-gy、-xy で終わる単語はすべて長音を付加する（ユーザーなど）」といった表記ルールを守る必要があります。</li>
+<li>詳しくは以下のガイドラインを参照してください。<ul>
+<li><a href="https://github.com/mozilla-japan/translation/wiki/Editorial-Guideline" target="_blank">表記ガイドライン</a></li>
+<li><a href="https://github.com/mozilla-japan/translation/wiki/L10N-Guideline" target="_blank">L10N ガイドライン</a></li>
+<li><a href="https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary" target="_blank">Mozilla 用語集</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1y-hC-xMXawCgcYZwJDnvuSlAOTgMRLLyqXurpYkJbYE/edit#gid=0" target="_blank">日本語の文体</a></li>
+</ul>
+</li>
+<li>記事中にある別の MDN ページへのリンク URL も英語版から日本語版へ変更します。<ul>
+<li>このとき、別の MDN ページの日本語版が存在していなくても、URL は日本語版のものに書き換えてください。</li>
+<li>MDN では翻訳ページ URL に翻訳記事が存在しない場合、自動で英語版記事へリダイレクトするような設定がされています。</li>
+<li>URL を日本語版のものに書き換えておけば、後々その記事が日本語化されたときにリンクが正常に機能するようになります。</li>
+</ul>
+</li>
+<li>翻訳作業（編集作業）が終わったら、次の手順へ進みます。</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="5_new-ja-file.html" class="navigation navigation-prev " aria-label="Previous page: 5. 日本語記事ページを新規作成する">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="7_create-pull-request.html" class="navigation navigation-next " aria-label="Next page: 7. Pull Request を作成する">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"6. 日本語記事ページを編集する","level":"1.3.7","depth":2,"next":{"title":"7. Pull Request を作成する","level":"1.3.8","depth":2,"path":"translation/7_create-pull-request.md","ref":"translation/7_create-pull-request.md","articles":[]},"previous":{"title":"5. 日本語記事ページを新規作成する","level":"1.3.6","depth":2,"path":"translation/5_new-ja-file.md","ref":"translation/5_new-ja-file.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"translation/6_edit-ja-file.md","mtime":"2023-01-27T17:08:12.150Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2023-01-27T17:12:56.888Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
