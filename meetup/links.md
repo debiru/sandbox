@@ -17,7 +17,7 @@
     - [yari リポジトリ](https://github.com/mdn/yari)
 - MDN 翻訳を始めるにあたって
     - [MDN で始めよう - MDN プロジェクト | MDN](https://developer.mozilla.org/ja/docs/MDN/Community/Contributing/Getting_started#Possible_task_types)
-    - [【Mozilla ドキュメント翻訳の始め方】](https://github.com/mozilla-japan/translation/wiki/Get-started-with-translation-of-Mozilla-documentations)
+    - [MDN Web Docs ドキュメント翻訳の始め方](https://github.com/mozilla-japan/translation/wiki/Get-started-with-translation-of-Mozilla-documentations)
 - 翻訳時の用語や表記の仕方、文体などに関して
     - [表記ガイドライン](https://github.com/mozilla-japan/translation/wiki/Editorial-Guideline)
     - [L10N ガイドライン](https://github.com/mozilla-japan/translation/wiki/L10N-Guideline)
