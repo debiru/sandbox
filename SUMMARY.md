@@ -15,3 +15,6 @@
     - [5. 日本語記事ページを新規作成する](translation/5_new-ja-file.md)
     - [6. 日本語記事ページを編集する](translation/6_edit-ja-file.md)
     - [7. Pull Request を作成する](translation/7_create-pull-request.md)
+- [補足情報](misc/index.md)
+    - [軽微な修正を行いたい場合](misc/for-minor-change.md)
+    - [yari リポジトリでの環境構築](misc/yari-repository.md)
