@@ -11,7 +11,7 @@
 
 ```
 // translated-content ディレクトリへ移動する
-$ cd ~/path/to/mdn/translated-content
+$ cd ~/path/to/mdn_repos/translated-content
 
 // main ブランチにいることを確認する
 $ git branch
@@ -27,14 +27,14 @@ $ mkdir entity
 $ cd entity
 
 // 英語版のページファイル index.md をここにコピーする
-$ cp ~/path/to/mdn/content/files/en-us/glossary/entity/index.md .
+$ cp ~/path/to/mdn_repos/content/files/en-us/glossary/entity/index.md .
 ```
 
 - ターミナルで別タブを開きます。
 
 ```
 // content ディレクトリに移動する
-$ cd ~/path/to/content
+$ cd ~/path/to/mdn_repos/content
 
 // ローカルプレビューを起動する
 $ yarn start

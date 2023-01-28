@@ -5,8 +5,8 @@
 ```
 // 作業用ディレクトリを作成する
 $ cd ~/path/to
-$ mkdir mdn
-$ cd ~/path/to/mdn
+$ mkdir mdn_repos
+$ cd ~/path/to/mdn_repos
 
 // fork リポジトリを 2 つとも clone する
 $ git clone git@github.com:YOUR_NAME/content.git
@@ -29,7 +29,7 @@ $ yarn install
 
 ```
 // 作業用ディレクトリに移動する
-$ cd ~/path/to/mdn
+$ cd ~/path/to/mdn_repos
 
 // 最新の fork リポジトリを pull する
 $ cd content

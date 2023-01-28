@@ -6,7 +6,7 @@
 
 ```
 // translated-content ディレクトリへ移動する
-$ cd ~/path/to/mdn/translated-content
+$ cd ~/path/to/mdn_repos/translated-content
 
 // main ブランチにいることを確認する
 $ git branch
@@ -26,7 +26,7 @@ $ git checkout -b issue-123
 
 ```
 // content ディレクトリに移動する
-$ cd ~/path/to/content
+$ cd ~/path/to/mdn_repos/content
 
 // ローカルプレビューを起動する
 $ yarn start

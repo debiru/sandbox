@@ -4,6 +4,7 @@
 
 - https://github.com/mdn/content リポジトリを fork します。
 - https://github.com/mdn/translated-content リポジトリを fork します。
+- 以上で完了です。
 
 ## 既にリポジトリを fork している場合 {#already}
 
@@ -13,13 +14,13 @@
     - ここが異なる表示結果になった場合、リポジトリに不整合が生じている可能性があります。その場合は以下の Git コマンドを参考に問題を解決するか Slack で相談してください。
 - https://github.com/YOUR_NAME/translated-content のページでも同様のことを行います。
 
-### Git コマンドで Sync fork する方法 {#command}
+### 補足：Git コマンドで Sync fork する方法 {#command}
 
 ```
 // 前提：clone したリポジトリのディレクトリに移動している
-$ cd ~/path/to/
+$ cd ~/path/to/mdn_repos/
 $ git clone git@github.com:YOUR_NAME/translated-content.git
-$ cd ~/path/to/translated-content
+$ cd ~/path/to/mdn_repos/translated-content
 
 // main ブランチにいることを確認する
 $ git branch

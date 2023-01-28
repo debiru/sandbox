@@ -1,6 +1,6 @@
 # Summary
 
-- [トップページ](README.md)
+- [MDN 月例ミートアップ - 翻訳ガイド](README.md)
 - [月例ミートアップについて](meetup/index.md)
     - [Mozilla コミュニティの Slack](meetup/community-slack.md)
     - [タイムスケジュール](meetup/time-schedule.md)
