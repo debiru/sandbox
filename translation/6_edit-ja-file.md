@@ -6,30 +6,30 @@
 
 ```
 // translated-content ディレクトリへ移動する
-$ cd ~/path/to/mdn_repos/translated-content
+[~] $ cd ~/path/to/mdn_repos/translated-content
 
 // main ブランチにいることを確認する
-$ git branch
+[translated-content] $ git branch
 
 // ls しながら、URL に対応するディレクトリへ移動する
-$ ls
-$ cd files/ja
-$ ls
-$ cd glossary/entity
+[translated-content] $ ls
+[translated-content] $ cd files/ja
+[ja] $ ls
+[ja] $ cd glossary/entity
 
 // トピックブランチを切る（ブランチ名は GitHub Issue の番号にでもしておく）
 // ※トピックブランチ名に特に決まりはありません。自由に決めてください。
-$ git checkout -b issue-123
+[entity] $ git checkout -b issue-123
 ```
 
 - ターミナルで別タブを開きます。
 
 ```
 // content ディレクトリに移動する
-$ cd ~/path/to/mdn_repos/content
+[~] $ cd ~/path/to/mdn_repos/content
 
 // ローカルプレビューを起動する
-$ yarn start
+[content] $ yarn start
 ```
 
 - ブラウザから http://localhost:5042/ja/docs/Glossary/Entity を開きます。
@@ -59,6 +59,7 @@ tags:
 ```
 
 - 日本語版では、`title` と `slug` 以外を削除し、`l10n` を追加します。
+    - `tags`, `translation_of`, `browser-compat`, `spec-urls` などは全て削除してください。
     - `l10n` は「エル 10 エヌ」です。アイではありません。
 
 ```yaml

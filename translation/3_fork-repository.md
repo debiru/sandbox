@@ -18,34 +18,34 @@
 
 ```
 // 前提：clone したリポジトリのディレクトリに移動している
-$ cd ~/path/to/mdn_repos/
-$ git clone git@github.com:YOUR_NAME/translated-content.git
-$ cd ~/path/to/mdn_repos/translated-content
+[~] $ cd ~/path/to/mdn_repos/
+[mdn_repos] $ git clone git@github.com:YOUR_NAME/translated-content.git
+[mdn_repos] $ cd ~/path/to/mdn_repos/translated-content
 
 // main ブランチにいることを確認する
-$ git branch
+[translated-content] $ git branch
 
 // main ブランチにいなければ、main ブランチに移動する
-$ git checkout main
+[translated-content] $ git checkout main
 
 // origin のみであることを確認する
-$ git remote -v
+[translated-content] $ git remote -v
 origin	git@github.com:YOUR_NAME/translated-content.git (fetch)
 origin	git@github.com:YOUR_NAME/translated-content.git (push)
 
 // remote を追加する
-$ git remote add upstream git@github.com:mdn/translated-content.git
+[translated-content] $ git remote add upstream git@github.com:mdn/translated-content.git
 
 // upstream が増えていることを確認する
-$ git remote -v
+[translated-content] $ git remote -v
 origin	git@github.com:YOUR_NAME/translated-content.git (fetch)
 origin	git@github.com:YOUR_NAME/translated-content.git (push)
 upstream	git@github.com:mdn/translated-content.git (fetch)
 upstream	git@github.com:mdn/translated-content.git (push)
 
 // upstream からローカルブランチに変更を取り込む
-$ git pull upstream main
+[translated-content] $ git pull upstream main
 
 // ローカルブランチの状態を GitHub に反映させる
-$ git push origin main
+[translated-content] $ git push origin main
 ```

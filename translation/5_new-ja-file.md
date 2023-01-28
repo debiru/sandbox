@@ -11,33 +11,33 @@
 
 ```
 // translated-content ディレクトリへ移動する
-$ cd ~/path/to/mdn_repos/translated-content
+[~] $ cd ~/path/to/mdn_repos/translated-content
 
 // main ブランチにいることを確認する
-$ git branch
+[translated-content] $ git branch
 
 // ls しながら、URL に対応するディレクトリへ移動する
-$ ls
-$ cd files/ja
-$ ls
-$ cd glossary
+[translated-content] $ ls
+[translated-content] $ cd files/ja
+[ja] $ ls
+[ja] $ cd glossary
 
 // glossary ディレクトリ内に entity ディレクトリを新規作成する
-$ mkdir entity
-$ cd entity
+[glossary] $ mkdir entity
+[glossary] $ cd entity
 
 // 英語版のページファイル index.md をここにコピーする
-$ cp ~/path/to/mdn_repos/content/files/en-us/glossary/entity/index.md .
+[entity] $ cp ~/path/to/mdn_repos/content/files/en-us/glossary/entity/index.md .
 ```
 
 - ターミナルで別タブを開きます。
 
 ```
 // content ディレクトリに移動する
-$ cd ~/path/to/mdn_repos/content
+[~] $ cd ~/path/to/mdn_repos/content
 
 // ローカルプレビューを起動する
-$ yarn start
+[content] $ yarn start
 ```
 
 - ブラウザから http://localhost:5042/ja/docs/Glossary/Entity を開きます。
@@ -50,16 +50,16 @@ $ yarn start
 
 // トピックブランチを切る（ブランチ名は GitHub Issue の番号にでもしておく）
 // ※トピックブランチ名に特に決まりはありません。自由に決めてください。
-$ git checkout -b issue-123
+[entity] $ git checkout -b issue-123
 
 // ブランチが移動しているか確認する
-$ git branch
+[entity] $ git branch
 
 // コミットする
 // ※コミットメッセージも特に決まりはありません。自由に決めてください。
-$ git add .
-$ git status
-$ git commit -m "copied index.md from en-us"
+[entity] $ git add .
+[entity] $ git status
+[entity] $ git commit -m "copied index.md from en-us"
 ```
 
 - ここまでできたら、記事を編集する場合と同じ手順で作業を進めます。
