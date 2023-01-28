@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>自己紹介シートについて · HonKit</title>
+        <title>yari リポジトリでの環境構築 · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 4.0.4">
@@ -56,10 +56,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="links.html" />
     
-    
-    <link rel="prev" href="time-schedule.html" />
+    <link rel="prev" href="for-minor-change.html" />
     
 
     </head>
@@ -101,9 +99,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="../meetup/">
             
-                <a href="./">
+                <a href="../meetup/">
             
                     
                     月例ミートアップについて
@@ -115,9 +113,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="community-slack.html">
+        <li class="chapter " data-level="1.2.1" data-path="../meetup/community-slack.html">
             
-                <a href="community-slack.html">
+                <a href="../meetup/community-slack.html">
             
                     
                     Mozilla コミュニティの Slack
@@ -128,9 +126,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="time-schedule.html">
+        <li class="chapter " data-level="1.2.2" data-path="../meetup/time-schedule.html">
             
-                <a href="time-schedule.html">
+                <a href="../meetup/time-schedule.html">
             
                     
                     タイムスケジュール
@@ -141,9 +139,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.3" data-path="self-introduction.html">
+        <li class="chapter " data-level="1.2.3" data-path="../meetup/self-introduction.html">
             
-                <a href="self-introduction.html">
+                <a href="../meetup/self-introduction.html">
             
                     
                     自己紹介シートについて
@@ -154,9 +152,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="links.html">
+        <li class="chapter " data-level="1.2.4" data-path="../meetup/links.html">
             
-                <a href="links.html">
+                <a href="../meetup/links.html">
             
                     
                     リンク集
@@ -295,9 +293,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../misc/">
+        <li class="chapter " data-level="1.4" data-path="./">
             
-                <a href="../misc/">
+                <a href="./">
             
                     
                     補足情報
@@ -309,9 +307,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../misc/for-minor-change.html">
+        <li class="chapter " data-level="1.4.1" data-path="for-minor-change.html">
             
-                <a href="../misc/for-minor-change.html">
+                <a href="for-minor-change.html">
             
                     
                     軽微な修正を行いたい場合
@@ -322,9 +320,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="../misc/yari-repository.html">
+        <li class="chapter active" data-level="1.4.2" data-path="yari-repository.html">
             
-                <a href="../misc/yari-repository.html">
+                <a href="yari-repository.html">
             
                     
                     yari リポジトリでの環境構築
@@ -370,7 +368,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >自己紹介シートについて</a>
+        <a href=".." >yari リポジトリでの環境構築</a>
     </h1>
 </div>
 
@@ -385,15 +383,42 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="自己紹介シートについて">自己紹介シートについて</h1>
+                                <h1 id="yari-リポジトリでの環境構築">yari リポジトリでの環境構築</h1>
 <ul>
-<li>月例ミートアップでは、15:00 からの中間報告会で自己紹介をしています。</li>
-<li>自己紹介の内容を記録に残すために、専用のスプレッドシートを用意しています。<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/1N73mciqvlQbuC4457OMteS-TXDldj75XybDKfK8CToI/edit#gid=0" target="_blank">MDNミートアップ：自己紹介シート</a></li>
+<li>ローカルプレビューを行うのに content リポジトリでの <code>yarn start</code> を使う以外に、yari リポジトリでの <code>yarn dev</code> を使う方法があります。</li>
+<li>yari リポジトリでローカルプレビューを行うことで、最新の yari リポジトリの状態を反映できます。<ul>
+<li>例えば MDN Web Docs のデザインが変更された際や、BCD（Browser Compat Data; ブラウザーの互換性）テーブルの構造が変更された場合などに、最新の状態を反映することができます。</li>
 </ul>
 </li>
-<li>差し支えなければ「自己紹介テンプレート」をコピーして、ご自身のシートを作成ください。</li>
-<li>シートの作成は必須ではありません。作成しない場合は中間報告会のタイミングで Slack に自己紹介を書き込んでください。</li>
+</ul>
+<pre><code>// 作業用ディレクトリに移動する
+[~] $ cd ~/path/to/mdn_repos
+
+// yari リポジトリを clone する
+[mdn_repos] $ git clone git@github.com:mdn/yari.git
+
+[mdn_repos] $ ls
+content    translated-content    yari
+
+// yari ディレクトリに移動する
+[mdn_repos] $ cd yari
+
+// yari ディレクトリ内に .env を作成する
+[yari] $ echo -e &apos;CONTENT_ROOT=../content/files\nCONTENT_TRANSLATED_ROOT=../translated-content/files&apos; &gt; .env
+[yari] $ cat .env
+CONTENT_ROOT=../content/files
+CONTENT_TRANSLATED_ROOT=../translated-content/files
+
+// ローカルプレビューができるように yarn install しておく
+[yari] $ yarn install
+
+// ローカルプレビューを起動する（`yarn start` ではなく `yarn dev` を使います）
+[yari] $ yarn dev
+</code></pre><ul>
+<li>yarn dev は少し時間がかかりますが、完了すると <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a> にアクセスできるようになります。<ul>
+<li>content リポジトリの場合は Port:5042 でした。yari リポジトリの場合は Port:3000 が使われます。</li>
+</ul>
+</li>
 </ul>
 
                                 
@@ -422,14 +447,10 @@
 
             
                 
-                <a href="time-schedule.html" class="navigation navigation-prev " aria-label="Previous page: タイムスケジュール">
+                <a href="for-minor-change.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 軽微な修正を行いたい場合">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="links.html" class="navigation navigation-next " aria-label="Next page: リンク集">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -438,7 +459,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"自己紹介シートについて","level":"1.2.3","depth":2,"next":{"title":"リンク集","level":"1.2.4","depth":2,"path":"meetup/links.md","ref":"meetup/links.md","articles":[]},"previous":{"title":"タイムスケジュール","level":"1.2.2","depth":2,"path":"meetup/time-schedule.md","ref":"meetup/time-schedule.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"meetup/self-introduction.md","mtime":"2023-01-28T04:36:55.590Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2023-01-28T07:31:50.151Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"yari リポジトリでの環境構築","level":"1.4.2","depth":2,"previous":{"title":"軽微な修正を行いたい場合","level":"1.4.1","depth":2,"path":"misc/for-minor-change.md","ref":"misc/for-minor-change.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"misc/yari-repository.md","mtime":"2023-01-28T07:31:45.606Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2023-01-28T07:31:50.151Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
