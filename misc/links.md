@@ -1,4 +1,6 @@
-# リンク集
+# 便利なリンク集
+
+翻訳作業に関連するリンクの一覧です。
 
 - 月例ミートアップ関連
     - [MDN 月例ミートアップ - 翻訳ガイド](https://mozilla-japan.github.io/mdn-translation-guide/)
